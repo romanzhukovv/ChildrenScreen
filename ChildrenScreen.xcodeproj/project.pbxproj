@@ -13,6 +13,7 @@
 		FCA1863F27D75114003F5F6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA1863D27D75114003F5F6D /* Main.storyboard */; };
 		FCA1864127D75115003F5F6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCA1864027D75115003F5F6D /* Assets.xcassets */; };
 		FCA1864427D75115003F5F6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCA1864227D75115003F5F6D /* LaunchScreen.storyboard */; };
+		FCA1864C27D75FF6003F5F6D /* ChildViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1864B27D75FF6003F5F6D /* ChildViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FCA1864027D75115003F5F6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCA1864327D75115003F5F6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FCA1864527D75115003F5F6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCA1864B27D75FF6003F5F6D /* ChildViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChildViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				FCA1863727D75114003F5F6D /* AppDelegate.swift */,
 				FCA1863927D75114003F5F6D /* SceneDelegate.swift */,
 				FCA1863B27D75114003F5F6D /* ChildrenViewController.swift */,
+				FCA1864B27D75FF6003F5F6D /* ChildViewCell.swift */,
 				FCA1863D27D75114003F5F6D /* Main.storyboard */,
 				FCA1864027D75115003F5F6D /* Assets.xcassets */,
 				FCA1864227D75115003F5F6D /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FCA1863C27D75114003F5F6D /* ChildrenViewController.swift in Sources */,
+				FCA1864C27D75FF6003F5F6D /* ChildViewCell.swift in Sources */,
 				FCA1863827D75114003F5F6D /* AppDelegate.swift in Sources */,
 				FCA1863A27D75114003F5F6D /* SceneDelegate.swift in Sources */,
 			);
